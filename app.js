@@ -33,5 +33,3 @@ geocode.geocodeAddress(argv.address, (errorMessage, results) => {
 });
 
 
-var logo = document.getElementById('hplogo');
-setInterval(() => {logo.width += 5;}, 100);
